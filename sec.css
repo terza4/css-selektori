@@ -1,0 +1,22 @@
+a:nth-of-type(1){
+    color: green;
+}
+a:nth-of-type(2){
+    color: green;
+}
+a:last-of-type{
+    color: red;
+}
+ /* ovdje se javlja problem*/
+#second-div:nth-child(odd){
+    color: red;
+}
+/*i ovdje se javlja problem*/
+#first-div:nth-child(2)::after{
+    content: "-NEXT";
+    color: red;
+}
+p:nth-child(8):hover{
+    font-style: italic;
+}
+
